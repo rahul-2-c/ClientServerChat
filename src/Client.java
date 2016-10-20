@@ -20,7 +20,7 @@ public class Client implements Runnable {
 	}
 
 	public void run() {
-
+    System.out.println("Yo");
 		String thread_name = Thread.currentThread().getName();
 
 		if (thread_name.contains("sender")) {
